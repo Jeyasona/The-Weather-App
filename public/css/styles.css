@@ -1,0 +1,61 @@
+
+
+#heading {
+  color: white;
+  font-size: 60px;
+  font-family: Sofia;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+#bg{
+  margin: 0;
+  padding: 0;
+  background: url('skiee.jpg');
+  background-size: cover;
+ 
+
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2); // Make sure this color has an opacity of less than 1
+  backdrop-filter: blur(8px); // This be the blur
+  height: 700vh;
+	width: 150%;
+  max-width: 400px;
+  max-height: 2000px;
+  margin-left: 1000px;
+  
+}
+
+img
+{
+  height: 100px;
+  margin-left: 110px;
+  
+
+}
+
+
+
+.container{
+  margin-right: 120px;
+}
+
+.fontstyle{ 
+  color: #fff; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 18px; 
+  line-height: 32px; 
+  margin: 0 0 24px; 
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+  font-family: Sofia;
+  margin-top: 300px;
+  color: white;
+  align-items: center;
+  
+}

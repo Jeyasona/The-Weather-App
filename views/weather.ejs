@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body id="bg" >
+
+    
+
+    <div >
+        <h1 id="heading">The Weather in <i><%= query %></i> </h1> 
+        <h1 id="heading" > <%= weatherDescription%> </h1>
+        <img src=" <%= imageURL %>  "> </img>
+        <div class="blur">
+
+            <h1 class="fontstyle">Weather Details:</h1>
+            <img src=" <%= imageURL %>  "> </img>
+            <h1 class="fontstyle" > Temperature &nbsp; &nbsp; <%= temp %> Fahrenheit </h1>
+            <h1 class="fontstyle" > Humidity &nbsp;&nbsp; <%= humid %> </h1>
+            <h1 class="fontstyle" > Longitude &nbsp; &nbsp; <%= longitude %> </h1>
+            <h1 class="fontstyle" > Latitude &nbsp; &nbsp; <%= latitude %> </h1>
+            <h1 class="fontstyle" > Windspeed &nbsp; &nbsp; <%= windSpeed %> </h1>
+           
+           
+            
+    
+           
+           
+        </div>
+        
+        
+        
+        
+    </div>
+
+    
+
+
+    
+
+    
+    
+</body>
+
+</html>
